@@ -1,0 +1,78 @@
+:root {
+	--shadow: 1.2px 1.2px 2px #191c1e, -1.2px -1.2px 2px #3d464a;
+	--shadow-inset: inset 1.2px 1.2px 2px #191c1e, inset -1.2px -1.2px 2px #3d464a;
+}
+
+* {
+	background: #2b3134;
+	/* font-family: 'Montserrat Alternates', sans-serif; */
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+}
+
+#box-shadow #flex-item {
+	box-shadow: var(--shadow);
+}
+
+#overlay {
+	box-shadow: var(--shadow-inset);
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+#card:hover #overlay {
+	opacity: 0.9;
+}
+
+#flex-item-player {
+	box-shadow: var(--shadow);
+}
+
+#card {
+	box-shadow: var(--shadow);
+}
+#card img {
+	transition: 0.5s;
+	transform: scale(1);
+	z-index: 0;
+}
+.textsm {
+	font-size: xx-small;
+	box-shadow: var(--shadow);
+}
+p {
+	background: none;
+}
+
+.textsmpush {
+	font-size: xx-small;
+	box-shadow: var(--shadow-inset);
+}
+
+#title {
+	background: none;
+	font-size: xx-small;
+	margin-top: -100px;
+	z-index: 1;
+	padding: 2px;
+	text-overflow: ellipsis;
+}
+#card i {
+	display: none;
+}
+
+#card:hover i {
+	display: flex;
+	font-size: 2rem;
+	background: none;
+	top: 30px;
+	left: 36px;
+	z-index: 1;
+}
+
+#card:hover img {
+	transition: 0.5s;
+	transform: scale(0.9);
+	box-shadow: var(--shadow-inset);
+	opacity: 0.5;
+}

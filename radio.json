@@ -1,0 +1,659 @@
+{
+	"rr": {
+		"name": "Radio Record",
+		"short": "rr",
+		"tns": { "stationId": "20015", "secName": "radio_record-1" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"deep": {
+		"name": "Deep",
+		"short": "deep",
+		"tns": { "stationId": "20052", "secName": "deep_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"deti": {
+		"name": "Веснушка FM",
+		"short": "deti",
+		"tns": { "stationId": null, "secName": null },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"rv": {
+		"name": "Руки Вверх!",
+		"short": "rv",
+		"tns": { "stationId": null, "secName": null },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"gold": {
+		"name": "Gold",
+		"short": "gold",
+		"tns": { "stationId": "20016", "secName": "gold_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"ibiza": {
+		"name": "Innocence",
+		"short": "ibiza",
+		"tns": { "stationId": "20017", "secName": "innocence_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"mf": {
+		"name": "Маятник Фуко",
+		"short": "mf",
+		"tns": { "stationId": "20018", "secName": "fuko_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"elect": {
+		"name": "Electro",
+		"short": "elect",
+		"tns": { "stationId": "20019", "secName": "electro_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"mt": {
+		"name": "Midtempo",
+		"short": "mt",
+		"tns": { "stationId": "20020", "secName": "midtempo_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"jackin": {
+		"name": "Bass House",
+		"short": "jackin",
+		"tns": { "stationId": "20021", "secName": "basshouse_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"progr": {
+		"name": "Progressive",
+		"short": "progr",
+		"tns": { "stationId": "20022", "secName": "progressive_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"synth": {
+		"name": "Synthwave",
+		"short": "synth",
+		"tns": { "stationId": "20023", "secName": "synthwave_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"househits": {
+		"name": "House Hits",
+		"short": "househits",
+		"tns": { "stationId": "20024", "secName": "househits_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"bighits": {
+		"name": "Big Hits",
+		"short": "bighits",
+		"tns": { "stationId": "20025", "secName": "bighits_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"dream": {
+		"name": "Dream Dance",
+		"short": "dream",
+		"tns": { "stationId": "20026", "secName": "dreamdance_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"darkside": {
+		"name": "Darkside",
+		"short": "darkside",
+		"tns": { "stationId": "20027", "secName": "darkside_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"uplift": {
+		"name": "Uplifting",
+		"short": "uplift",
+		"tns": { "stationId": "20028", "secName": "uplifting_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"houseclss": {
+		"name": "House Classics",
+		"short": "houseclss",
+		"tns": { "stationId": "20029", "secName": "houseclassics_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"edmhits": {
+		"name": "EDM Hits",
+		"short": "edmhits",
+		"tns": { "stationId": "20030", "secName": "edmhits_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"neurofunk": {
+		"name": "Neurofunk",
+		"short": "neurofunk",
+		"tns": { "stationId": "20031", "secName": "neurofunk_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"tecktonik": {
+		"name": "Tecktonik",
+		"short": "tecktonik",
+		"tns": { "stationId": "20032", "secName": "tecktonik_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"2step": {
+		"name": "2-step",
+		"short": "2step",
+		"tns": { "stationId": "20033", "secName": "twostep_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"trancehits": {
+		"name": "Trance Hits",
+		"short": "trancehits",
+		"tns": { "stationId": "20034", "secName": "trancehits_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"rap": {
+		"name": "Rap Hits",
+		"short": "rap",
+		"tns": { "stationId": "20035", "secName": "raphits_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"rapclassics": {
+		"name": "Rap Classics",
+		"short": "rapclassics",
+		"tns": { "stationId": "20036", "secName": "rapclassics_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"cadillac": {
+		"name": "Cadillac FM",
+		"short": "cadillac",
+		"tns": { "stationId": "20037", "secName": "cadillac_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"1980": {
+		"name": "1980-е",
+		"short": "1980",
+		"tns": { "stationId": "20038", "secName": "eighties_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"chillhouse": {
+		"name": "Chill House",
+		"short": "chillhouse",
+		"tns": { "stationId": "20039", "secName": "chillhouse_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"1970": {
+		"name": "1970-е",
+		"short": "1970",
+		"tns": { "stationId": "20040", "secName": "seventies_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"complextro": {
+		"name": "Complextro",
+		"short": "complextro",
+		"tns": { "stationId": "20041", "secName": "complextro_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"groovetribal": {
+		"name": "Groove/Tribal",
+		"short": "groovetribal",
+		"tns": { "stationId": "20042", "secName": "tribal_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"russianhits": {
+		"name": "Russian Hits",
+		"short": "russianhits",
+		"tns": { "stationId": "20043", "secName": "russianhits_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"mix": {
+		"name": "Megamix",
+		"short": "mix",
+		"tns": { "stationId": "20044", "secName": "megamix_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"jungle": {
+		"name": "Jungle",
+		"short": "jungle",
+		"tns": { "stationId": "20045", "secName": "jungle_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"liquidfunk": {
+		"name": "Liquid Funk",
+		"short": "liquidfunk",
+		"tns": { "stationId": "20046", "secName": "liquidfunk_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"drumhits": {
+		"name": "Drum'n'Bass Hits",
+		"short": "drumhits",
+		"tns": { "stationId": "20047", "secName": "drumnbass_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"russiangold": {
+		"name": "Russian Gold",
+		"short": "russiangold",
+		"tns": { "stationId": "20048", "secName": "russiangold_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"eurodance": {
+		"name": "Eurodance",
+		"short": "eurodance",
+		"tns": { "stationId": "20049", "secName": "eurodance_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"technopop": {
+		"name": "Technopop",
+		"short": "technopop",
+		"tns": { "stationId": "20050", "secName": "technopop_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"discofunk": {
+		"name": "Disco/Funk",
+		"short": "discofunk",
+		"tns": { "stationId": "20051", "secName": "funk_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"club": {
+		"name": "EDM",
+		"short": "club",
+		"tns": { "stationId": "20053", "secName": "edm_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"trop": {
+		"name": "Tropical",
+		"short": "trop",
+		"tns": { "stationId": "20054", "secName": "tropical_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"goa": {
+		"name": "GOA/PSY",
+		"short": "goa",
+		"tns": { "stationId": "20055", "secName": "goa_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"fut": {
+		"name": "Future House",
+		"short": "fut",
+		"tns": { "stationId": "20056", "secName": "futurehouse_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"tm": {
+		"name": "Trancemission",
+		"short": "tm",
+		"tns": { "stationId": "20057", "secName": "trancemission_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"chil": {
+		"name": "Chill-Out",
+		"short": "chil",
+		"tns": { "stationId": "20058", "secName": "chillout_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"mini": {
+		"name": "Minimal/Tech",
+		"short": "mini",
+		"tns": { "stationId": "20059", "secName": "minimal_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"ps": {
+		"name": "Pirate Station",
+		"short": "ps",
+		"tns": { "stationId": "20060", "secName": "pirate_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"rus": {
+		"name": "Russian Mix",
+		"short": "rus",
+		"tns": { "stationId": "20061", "secName": "russinmix_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"vip": {
+		"name": "Vip House",
+		"short": "vip",
+		"tns": { "stationId": "20062", "secName": "viphouse_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"sd90": {
+		"name": "Супердискотека 90-х",
+		"short": "sd90",
+		"tns": { "stationId": "20063", "secName": "ninetieth_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"mmbt": {
+		"name": "Moombahton",
+		"short": "mmbt",
+		"tns": { "stationId": "20064", "secName": "moombahton_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"trancehouse": {
+		"name": "Trancehouse",
+		"short": "trancehouse",
+		"tns": { "stationId": "20065", "secName": "trancehouse_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"hypno": {
+		"name": "Hypnotic",
+		"short": "hypno",
+		"tns": { "stationId": "20066", "secName": "hypnotic_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"brks": {
+		"name": "Breaks",
+		"short": "brks",
+		"tns": { "stationId": "20067", "secName": "breaks_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"dub": {
+		"name": "Dubstep",
+		"short": "dub",
+		"tns": { "stationId": "20068", "secName": "dubstep_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"dc": {
+		"name": "Dancecore",
+		"short": "dc",
+		"tns": { "stationId": "20069", "secName": "dancecore_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"techno": {
+		"name": "Techno",
+		"short": "techno",
+		"tns": { "stationId": "20070", "secName": "techno_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"rmx": {
+		"name": "Remix",
+		"short": "rmx",
+		"tns": { "stationId": "20071", "secName": "remix_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"fbass": {
+		"name": "Future Bass",
+		"short": "fbass",
+		"tns": { "stationId": "20072", "secName": "futurebass_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"teo": {
+		"name": "Hardstyle",
+		"short": "teo",
+		"tns": { "stationId": "20073", "secName": "hardstyle_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"hbass": {
+		"name": "Hard Bass",
+		"short": "hbass",
+		"tns": { "stationId": "20074", "secName": "hardbass_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"trap": {
+		"name": "Trap",
+		"short": "trap",
+		"tns": { "stationId": "20075", "secName": "trap_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"pump": {
+		"name": "Old School",
+		"short": "pump",
+		"tns": { "stationId": "20076", "secName": "oldschool_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"rock": {
+		"name": "Rock",
+		"short": "rock",
+		"tns": { "stationId": "20077", "secName": "rock_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"mdl": {
+		"name": "Медляк FM",
+		"short": "mdl",
+		"tns": { "stationId": "20078", "secName": "slow_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"gop": {
+		"name": "Гоп FM",
+		"short": "gop",
+		"tns": { "stationId": "20079", "secName": "gop_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"symph": {
+		"name": "Симфония FM",
+		"short": "symph",
+		"tns": { "stationId": "20080", "secName": "symphony_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"yo": {
+		"name": "Black",
+		"short": "yo",
+		"tns": { "stationId": "20081", "secName": "black_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"rave": {
+		"name": "Rave FM",
+		"short": "rave",
+		"tns": { "stationId": "20082", "secName": "rave_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"gast": {
+		"name": "Гастарбайтер FM",
+		"short": "gast",
+		"tns": { "stationId": "20083", "secName": "guestworker_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"naft": {
+		"name": "Нафталин FM",
+		"short": "naft",
+		"tns": { "stationId": "20084", "secName": "naphthalene_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	},
+	"ansh": {
+		"name": "Аншлаг FM",
+		"short": "ansh",
+		"tns": { "stationId": "20085", "secName": "anshlag_radio" },
+		"color": "hsla(195, 5%, 23%, 1)",
+		"fcolor": "hsla(195, 5%, 75%, 1)",
+		"bcolor": "hsla(195, 5%, 50%, 0.5)",
+		"text": ""
+	}
+}

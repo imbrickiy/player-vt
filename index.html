@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
+    <!-- <link href="https://unpkg.com/vuetify@1.0.4/dist/vuetify.min.css" rel="stylesheet"> -->
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,500&display=swap" rel="stylesheet" /> -->
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Player</title>
+</head>
+
+<body class="m-0">
+    <main id="app" class="block">
+        <!-- Список радиостанций -->
+        <div class="flex flex-row flex-wrap items-center content-center justify-center mt-20">
+            <div class="textsm relative flex justify-center w-32 h-full m-1 overflow-hidden rounded-lg items-ce nter"
+                v-for="(station, index) in list" :key="index" :class="{ textsmpush : index == selected}"
+                @click="play(index)">
+                <img class="flex w-24 h-24 m-2 " :src="station.icon_png" alt="station.icon_png">
+                <p class="absolute p-1 uppercase top-1 font-semibold">{{station.title}}</p>
+                <p class="absolute bottom-0 w-full p-1 text-center bg-gray-700 bg-opacity-25" id="">
+                    {{station.artist}} |
+                    {{station.song}}</p>
+
+            </div>
+        </div>
+        <!-- Плейер -->
+        <div class="relative z-10 flex flex-row flex-wrap items-center content-center justify-center">
+            <div class="fixed top-0 w-full h-auto uppercase " id="flex-item-player">
+                <div class="flex flex-wrap justify-evenly m-2">
+                    <img class="left-0 w-10 h-full m-1" :src="icon_png" />
+                    <div class="px-4 py-2 m-1 text-center">{{title}}</div>
+                    <div class="px-4 py-2 m-2 text-xs text-center">{{artist}} - {{song}}</div>
+                    <div class="px-4 py-2 text-4xl text-center">
+                        <span @click="play(index)" v-show="visible">
+                            <i class="absolute fa fa-play"></i>
+                        </span>
+                        <span @click="stop(index)" v-show="!visible">
+                            <i class="absolute fa fa-stop"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.0/howler.js"></script>
+<script src="https://unpkg.com/vue"></script>
+<!-- <script src="https://unpkg.com/vuetify@1.0.4/dist/vuetify.min.js"></script> -->
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="./assets/js/script.js"></script>
+
+</html>
