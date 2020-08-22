@@ -72,7 +72,7 @@ var app = new Vue({
 	mounted: function () {
 		setInterval(() => {
 			axios
-				.get('https://www.radiorecord.ru/radioapi/stations/')
+				.get('https://www.radiorecord.ru/radioapi/stations/now/')
 				.then((response) => {
 					this.list = Object.values(response.data.result);
 				});
