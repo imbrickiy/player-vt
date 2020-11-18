@@ -42,7 +42,7 @@ var app = new Vue({
 			}
 			this.selected = undefined;
 			this.sound = new Howl({
-				src: this.list[index].stream_32,
+				src: this.list[index].stream_64,
 				html5: true,
 			});
 			this.sound.play();
